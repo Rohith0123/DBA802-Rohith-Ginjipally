@@ -38,7 +38,7 @@ author_line.alignment=1
 author_line.runs[0].bold=True
 affiliation_line=d.add_paragraph("Midwest University")
 affiliation_line.alignment=1
-para("Corresponding author: Rohith Ginjipally | Email: [AUTHOR TO PROVIDE]")
+para("Corresponding author: Rohith Ginjipally | Email: rginjipally@midwest.edu")
 section("Abstract")
 para(f"This research-development study asks whether plausible rule-derived organizational features improve digital transformation readiness prediction. Twenty independently seeded synthetic enterprise datasets (2,400 observations each) were generated to compare logistic regression, gradient boosting and a knowledge-feature-augmented logistic model, K-DART. A separate shifted simulation assessed sensitivity to distribution changes. Mean within-distribution AUROC was {idkd:.4f} for K-DART and {idlog:.4f} for logistic regression (paired Wilcoxon p={pvalue:.4f}). The rule augmentation did not improve discrimination. Two experimental figures and two tables document baseline comparisons, ablation, and calibration. Results establish neither real-world readiness prediction nor validated decision utility; they illustrate the need to validate domain rules and enterprise outcomes independently before claims of knowledge-based advantage.")
 para("Keywords: knowledge-based systems; digital transformation; enterprise innovation; data analytics; decision intelligence; AI")
