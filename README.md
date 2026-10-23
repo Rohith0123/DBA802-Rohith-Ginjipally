@@ -1,4 +1,12 @@
-# DBA 802 — K-DART research project
+# Beyond Data-Only AI: Evaluating Knowledge-Guided Digital Transformation Readiness with Enterprise Innovation Data
+
+Author: Rohith Ginjipally
+
+Affiliation: Midwest University
+
+Article type: Short Communication (research draft)
+
+K-DART is a provisional model label, not part of the paper title.
 
 **Research-stage prototype; NOT ready for journal submission.**
 
