@@ -31,8 +31,8 @@ from scipy.stats import wilcoxon
 pv=df[df.split=="ID"].pivot(index="seed",columns="model",values="auc")
 pvalue=wilcoxon(pv["K-DART"]-pv["Logistic"]).pvalue
 
-d.add_heading("Beyond Data-Only AI: Evaluating Knowledge-Guided Digital Transformation Readiness with Enterprise Innovation Data",0)
-para("Article type: Short Communication | SYNTHETIC RESEARCH DRAFT — NOT FOR JOURNAL SUBMISSION")
+title=d.add_heading("Beyond Data-Only AI: Evaluating Knowledge-Guided Digital Transformation Readiness with Enterprise Innovation Data",0)
+title.alignment=1
 author_line=d.add_paragraph("Rohith Ginjipally")
 author_line.alignment=1
 author_line.runs[0].bold=True
