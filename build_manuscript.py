@@ -31,9 +31,11 @@ from scipy.stats import wilcoxon
 pv=df[df.split=="ID"].pivot(index="seed",columns="model",values="auc")
 pvalue=wilcoxon(pv["K-DART"]-pv["Logistic"]).pvalue
 
-d.add_heading("K-DART: Knowledge-Guided AI for Data-Driven Digital Transformation Readiness and Enterprise Innovation",0)
-para("Short Communication — SYNTHETIC RESEARCH DRAFT; NOT FOR JOURNAL SUBMISSION")
-para("Author information, affiliations and corresponding email: [AUTHOR TO CONFIRM]")
+d.add_heading("Beyond Data-Only AI: Evaluating Knowledge-Guided Digital Transformation Readiness with Enterprise Innovation Data",0)
+para("Article type: Short Communication | SYNTHETIC RESEARCH DRAFT — NOT FOR JOURNAL SUBMISSION")
+para("Rohith Ginjipally")
+para("Midwest University")
+para("Corresponding author email: [AUTHOR TO PROVIDE]")
 section("Abstract")
 para(f"This research-development study asks whether plausible rule-derived organizational features improve digital transformation readiness prediction. Twenty independently seeded synthetic enterprise datasets (2,400 observations each) were generated to compare logistic regression, gradient boosting and a knowledge-feature-augmented logistic model, K-DART. A separate shifted simulation assessed sensitivity to distribution changes. Mean within-distribution AUROC was {idkd:.4f} for K-DART and {idlog:.4f} for logistic regression (paired Wilcoxon p={pvalue:.4f}). The rule augmentation did not improve discrimination. Two experimental figures and two tables document baseline comparisons, ablation, and calibration. Results establish neither real-world readiness prediction nor validated decision utility; they illustrate the need to validate domain rules and enterprise outcomes independently before claims of knowledge-based advantage.")
 para("Keywords: knowledge-based systems; digital transformation; enterprise innovation; data analytics; decision intelligence; AI")
