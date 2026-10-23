@@ -1,0 +1,14 @@
+{
+  "synthetic_only": true,
+  "n_seeds": 20,
+  "n_per_seed": 2400,
+  "mean_auroc": {
+    "('ID', 'GradientBoosting')": 0.7373859366285477,
+    "('ID', 'K-DART')": 0.7684686584839657,
+    "('ID', 'Logistic')": 0.7689190731160801,
+    "('SHIFT', 'GradientBoosting')": 0.7394289928124105,
+    "('SHIFT', 'K-DART')": 0.772823866197162,
+    "('SHIFT', 'Logistic')": 0.7743793359803764
+  },
+  "p_kdart_vs_logistic_ID_auroc_wilcoxon": 0.2773551940917969
+}
